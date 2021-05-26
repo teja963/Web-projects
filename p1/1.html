@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <title>www.teja_jack.com</title>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <link rel="stylesheet" type="text/css" href="2.css">
+      <style>
+          .body{
+              background-color:auto;
+              overflow: auto;
+            }
+            input[type=text] {
+               width: 130px;
+               height: 30px;
+            }
+
+            input[type=text]:focus {
+                width: 100%;
+            }
+
+           .icon-bar{
+              width:100%;
+              background-color: black;
+              overflow:auto;
+            }
+
+           .icon-bar a{
+             float:left;
+             text-align:center;
+             width:10%;
+             padding:2px 0;
+             color:rgb(192, 217, 255); /* White text color */
+             font-size:45px;
+            }
+            
+            .icon-bar a:hover{
+              background-color: rgba(5, 70, 78, 0.986);
+            }
+
+           .active{
+              background-color: rgba(22, 168, 9, 0.952);
+            }
+
+            .p{
+            text-align: center;
+            }
+          
+            .container{
+              text-align:center;
+              position: relative;
+              width:100%;
+              height:70%;
+            }
+        
+          .container .centered{
+            position:absolute; /* Position the background text */
+            bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+            background: rgb(0, 0, 0); /* Fallback color */
+            background: rgba(0.2, 0.2, 0.2, 0.7); /* Black background with 0.5 opacity */
+            color: #f1f1f1; /* Grey text */
+            width:auto; /* Full width */
+            padding: 20px; /* Some padding */
+          }
+
+          .parallax{
+            background-image: url("https://images.unsplash.com/photo-1558945841-096da0cd534a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8aG9yaXpvbnRhbCUyMHdhbGxwYXBlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60.jpg");
+            height:1000px;
+            width:150%;
+            overflow: auto;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat:no-repeat;
+            background-size:auto;
+
+          }
+          @media only screen and (max-device-width:1500px) {
+         .parallax {
+          background-attachment:fixed;
+           }}
+
+          .middle{
+            height: 500px;px;
+            width: auto;
+            background-color:rgba(16, 17, 16, 0.87);
+          }
+
+          .middle .text{
+            text-align: center;
+            color:rgb(243, 146, 19);
+            padding: 70px;
+            padding-left:42%;
+            padding-right:0%;
+            font-size: 42px;
+          }
+
+          .last-block{
+            background-image:url("https://images.unsplash.com/photo-1542328689-df6c076c1604?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8N3x8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=60.png");
+            width:200%;
+            padding:10px;
+            height:80%;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat:no-repeat;
+            overflow: auto;
+          }
+
+          .last-block a{
+            float:auto;
+            text-align:center;
+            width:50px;
+            font-size:30px;
+            color: rgb(252, 252, 253);
+          }
+
+          .last-block a:hover{
+            background-color: hsla(226, 98%, 36%, 0.952);
+          }
+
+          .last-block .bold{
+            text-align:auto;
+            float:center;
+            font-size:25px;
+            color: #f1f1f1; /* Grey text */
+             }
+
+
+
+
+
+          
+          
+      </style>
+  </head>
+  <body>
+    <div class="body">
+      <p class="p">ICON BAR</p>
+      <form><input type="text" name="search" placeholder="Search the Content................."></input></form>
+      
+      <div class="icon-bar">
+          <a class="active" href="https://www.google.com/"><i class="fa fa-home"></i></a>
+          <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"><i class="fa fa-envelope"></i></a>
+          <a href="https://web.telegram.org/#/im"><i class="fa fa-paper-plane"></i></a>
+          <a href="https://www.google.com/maps"><i class="fa fa-map-marker"></i></a>
+          <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+          <a href="https://eduserver.nitc.ac.in/login/index.php"><i class="fa fa-institution"></i></a>
+          <a href="https://github.com/teja963"><i class="fa fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/panasa-teja-8663101b0/"><i class="fa fa-linkedin"></i></a>
+          <a href="https://web.whatsapp.com/"><i class="fa fa-whatsapp"></i></a>
+          <a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a>
+      </div>
+
+      <div class="container">
+          <img src="https://images.unsplash.com/photo-1525755314970-da06742b3792?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTY4fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60.jpg" alt="image" style="width:100%;"/>
+        <div class="centered">
+            <h1 style="font-size:60px;">Life Stuff</h1>
+            <p class="p1" style="font-size:35px;">Life is defined as any system capable of performing functions such as eating, metabolizing, excreting, breathing, moving, growing, reproducing, and responding to external stimuli.</p>
+        </div>
+      </div>
+      
+      <p style="text-align: center;">PARALLEX EFFECTS</p>
+      
+      <div  class="parallax"></div>
+      <div class="middle">
+        <b class="text">OUR QUIZZES</b>
+        <p style="text-align: center; color: #f1f1f1; font-size:32px;"><b style="font-color:black; font-size:34px;">SAMASYA: </b>Cited as one of Kerala's biggest annual School Quizzes, held as a part of Tathva.</p>
+        <p style="text-align: center; color: #f1f1f1; font-size:32px;"><b style="font-color:black; font-size:34px;">CROSSROADS: </b>An ensemble of quizzes conducted as a part of Ragam, NITC's Annual Cultural Festival.</p>
+        <p style="text-align: center; color: #f1f1f1; font-size:32px;"><b style="font-color:black; font-size:34px;">QFLIX: </b>It was a competition that aimed at believers of netfix
+          series.</p>
+        <p style="text-align: center; color: #f1f1f1; font-size:32px;"><b style="font-color:black; font-size:34px;">KRYPTEX: </b>With a new format of questions, Quizzers had fervently engaged in this event and admitted a giant success.</p>
+        <p style="text-align: center; color: #f1f1f1; font-size:32px;"><b style="font-color:black; font-size:34px;">REWIND: </b>In December to make quizzers cognizant about all such important
+          moments in that year.</p><br>
+
+        <b class="text">OUR LEGACY</b><br><br>
+        <p style="text-align: center; color: #f1f1f1; font-size:34px;">We are the brainchild of a dedicated group of quizzers at NIT Calicut. Established in 2002, we are synonymous with our signature events during Tathva and Ragam, and Enquire Quiz Leagues. We conduct about 20 quizzes every year.</p><br>
+        <p style="text-align: center; color: #f1f1f1; font-size:34px;">Enquire Quiz Club, being the quiz club of NITC, holds quizzes across the state and works to expand its frontier every year.  Besides the presence of alumni in IIMs and other national level institutes, Enquire has conducted quizzes at KQA events. Enquire has also consistently maintained its position as the biggest quiz club in the state.</p>
+
+      </div>
+      <div  class="parallax"></div>
+     
+    </div>
+
+    <div class="last-block">
+      <b class="bold">NATIONAL INSTITUTE OF TECHNOLOGY CALICUT</b>
+      <p style="color: #f1f1f1; font-size:24px;">Website Content Managed by the Club Incharges<br>
+      <i style="color: #f1f1f1; font-size:24px;">Designed,Developed and Hosted by <b>Mr.Panasa Teja</b></i>
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-phone"></i></a>
+      <img src="http://www.soms.nitc.ac.in/web/images/logo.jpg" alt="NITC-LOGO"  style="width:115px; height:100px; border-radius:auto; bottom: 60px; position:relative; left: 100px;" />
+    </div>
+    
+
+</body>  
+</html>
